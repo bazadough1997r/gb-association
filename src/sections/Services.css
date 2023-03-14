@@ -1,0 +1,33 @@
+.servicesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.servicesTitle {
+  font-size: calc(1.5rem + 1.5vw);
+  color: #2ba988;
+  padding-bottom : 2rem;
+}
+
+.servicesTitlesSpan {
+  background-color: #185c76;
+}
+
+.ServicesContent p {
+  font-size: calc(0.6rem + 0.6vw);
+  color: #185c76;
+  padding-bottom: 1rem;
+}
+
+.servicesIntro {
+  font-size: calc(0.8rem + 0.8vw);
+  color: #2ba988;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.servicesIntroSpan {
+  color: #185c76;
+}

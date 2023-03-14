@@ -1,0 +1,28 @@
+.nav-item {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  text-decoration: none;
+  color: #2ba988;
+  /* color: #185c76; blue  */
+  /* color: #2ba988; green */
+  /* color: #e5f2f2; gray */
+  cursor: pointer;
+}
+
+.nav li {
+  display: inline;
+  margin-left: 1.5vw;
+  font-size: calc(0.5rem + 0.5vw);
+}
+
+@media (max-width: 350px) {
+  .nav li {
+    display: inline;
+    margin-left: 1.5vw;
+    font-size: calc(0.4rem + 0.4vw);
+  }
+}

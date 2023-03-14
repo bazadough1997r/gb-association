@@ -1,0 +1,37 @@
+.coinsContainer {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.coinsContainer h3 {
+    font-size: calc(1.5rem + 1.5vw);
+    color: #2ba988;
+    padding-bottom: 2rem;
+}
+
+.coinsContainer span {
+    background-color: goldenrod;
+    color: #053348;
+}
+
+.collectCoins img {
+    width: 60%;
+    height: 60%;
+    padding-bottom: 2rem;
+}
+
+.coinsBenefitsImgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.coinsBenefitsImgs img {
+    width: 30%;
+    height: 30%;
+}

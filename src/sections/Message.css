@@ -1,0 +1,44 @@
+.ceoMsgClms {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.ceoImgWrapper img {
+  height: 75vh;
+}
+
+.ceoTitle {
+  font-size: calc(1.5rem + 1.5vw);
+  color: #2ba988;
+  padding-bottom: 2rem;
+}
+
+.ceoTitleSpan {
+  background-color: #185c76;
+}
+
+.ceoMsgText p {
+  font-size: calc(0.6rem + 0.6vw);
+  color: #185c76;
+  padding: 0px 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 912px) {
+  .ceoMsgClms {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  .ceoImgWrapper img {
+    width: 100%;
+    height: 100%;
+  }
+}

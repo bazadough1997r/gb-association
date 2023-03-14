@@ -1,0 +1,17 @@
+.header-container {
+  background-color: #053348;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header-container .logo {
+  width: 5em;
+  cursor: pointer;
+}
+
+.header-container .title {
+  font-size: calc(0.6rem + 0.6vw);
+}
